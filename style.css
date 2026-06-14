@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:snow;
+}
+
+header{
+    background:blue;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    padding:50px;
+}
+
+.card{
+    width:380px;
+    background:white;
+    border-radius:15px;
+    text-align:center;
+    padding:35px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
+
+.card h2{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.card p{
+    color:gray;
+    font-size:22px;
+    margin-bottom:15px;
+}
+
+.card h3{
+    color:green;
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.card button{
+    background:green;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.card button:hover{
+    background:greenyellow;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    font-size:18px;
+}
